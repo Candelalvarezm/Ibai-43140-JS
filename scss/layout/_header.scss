@@ -1,0 +1,33 @@
+header{
+    .navbar{
+        margin: 0px 40px;
+        padding: 20px 0px;
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            height: 50px;
+        }
+        div{
+            align-self: center;
+            ul{
+                list-style-type: none;
+                display: flex;
+                .links{
+                    text-decoration: none;
+                    color: black;
+                    margin: 0px 15px;
+                    font-family: 'Roboto', sans-serif;
+                    
+                }
+            }
+        }
+        div{
+            img{
+                height: 40px;
+            }
+        }
+    }
+}
+
+
+

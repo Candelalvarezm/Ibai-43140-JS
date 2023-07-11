@@ -1,0 +1,26 @@
+footer{
+    background-color: $color-secundario;
+    display: flex;
+    justify-content: space-between;
+    .redes-sociales{
+        .ig{
+            color: white;
+            display: flex;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            align-items: center;
+            img{
+                height: 60px;
+            }
+            p{
+                padding-left: 1.5rem;
+            } 
+        } 
+    }
+
+    .iso{
+        
+        scale: 0.5;
+    }
+
+}
