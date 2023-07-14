@@ -90,6 +90,8 @@ class Producto {
           carrito.agregarProducto(productoSeleccionado);
         } else if (opcion > misProductos.length) {
             alert("Número invalido")
+        } else if (opcion|| isNaN ) {
+            alert("No has ingresado un número")
         }
       } while (opcion !== 0);
     }
